@@ -72,6 +72,14 @@ function PuyoCircle({
             top: '30%', left: '55%',
             boxShadow: 'inset 1px 1px 0 rgba(0,0,0,0.7)',
           }} />
+          <div style={{
+            position: 'absolute', width: 12, height: 6,
+            border: '2px solid rgba(0,0,0,0.55)',
+            borderTop: 'none',
+            borderRadius: '0 0 8px 8px',
+            bottom: '22%', left: '50%',
+            transform: 'translateX(-50%)',
+          }} />
         </>
       )}
       {color === 'ojama' && '✕'}
